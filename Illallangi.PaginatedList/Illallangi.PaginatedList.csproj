@@ -7,7 +7,7 @@
     <ProjectGuid>{70E5853A-DFF2-4F9B-AC45-9972DB8C95BA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Illallangi.PaginatedList</RootNamespace>
+    <RootNamespace>Illallangi</RootNamespace>
     <AssemblyName>Illallangi.PaginatedList</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
