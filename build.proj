@@ -59,7 +59,7 @@
     <Copy SourceFiles="$(SourceDir)\Illallangi.PaginatedList\bin\$(Configuration)\Illallangi.PaginatedList.dll"
           DestinationFolder="$(BuildDir)\bin\lib" />
     <Message Text="Searching for certificate $(Certificate)" Importance="high"/>
-    <Exec Command='"@(SignTool)" sign /sha1 $(Certificate) /t http://timestamp.verisign.com/scripts/timstamp.dll "$(BuildDir)\bin\lib\Illallangi.PaginatedList.dll"' 
+    <Exec Command='"@(SignTool)" sign /sha1 $(Certificate) /sm /t http://timestamp.verisign.com/scripts/timstamp.dll "$(BuildDir)\bin\lib\Illallangi.PaginatedList.dll"' 
           Condition="$(Certificate) != ''"/>
   </Target>
 
