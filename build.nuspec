@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Illallangi.PaginatedList</id>
+    <version>$version$</version>
+    <title>Paginated List</title>
+    <authors>Illallangi Enterprises</authors>
+    <owners>Illallangi Enterprises</owners>
+    <projectUrl>http://illallangi.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A library to paginate a list</description>
+    <copyright>Copyright 2013</copyright>
+    <tags>Collection</tags>
+  </metadata>
+</package>
